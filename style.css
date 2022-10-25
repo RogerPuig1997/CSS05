@@ -1,0 +1,52 @@
+*{
+    background-color: beige;
+}
+p{
+    background-color: aquamarine;
+}
+#title-1{
+    background-color: lightsalmon;
+}
+.bg-yellow{
+    background-color: yellow;
+}
+[id]{
+    background-color: lightcyan;
+}
+[id="title-1"]{
+    background-color: lightgreen;
+}
+[href="https://www.yahoo.com"]{
+    background-color:lightpink ;
+}
+[class^="title"]{
+    background-color:blue ;
+}
+[href$=".com"]{
+    background-color: green;
+}
+[class|="title"]{
+    background-color: lightseagreen;
+}
+[href*="127"]{
+    background-color: aqua;
+}
+[href^="http"]{
+    background-color: red;
+}
+a, p, h1{
+    background-color: brown;
+}
+main p{
+    background-color: darkblue;
+}
+h1 + *{
+    background-color: darkgoldenrod;
+}
+h1 ~ *{
+    background-color: darkgreen;
+}
+main > *{
+    background-color: aliceblue;
+}
+/*Convertir en comentarios todps los selects que no se quieran ver*/
